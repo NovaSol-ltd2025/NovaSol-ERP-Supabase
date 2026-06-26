@@ -1,5 +1,5 @@
 // =====================================================================
-// ===      CODE.GS - NOVASOL ERP V9.0 (MULTI-BRANCH EDITION)        ===
+// ===      CODE.GS - NOVASOL ERP V10.0 (MULTI-BRANCH EDITION)        ===
 // ===  เพิ่ม: Supabase Sync ทุก save/delete function                 ===
 // ===  หมายเหตุ: โค้ดเดิมไม่มีการเปลี่ยนแปลง                       ===
 // ===  มีเพิ่มเฉพาะบรรทัดที่มี comment // ✅ SUPABASE               ===
@@ -106,7 +106,7 @@ function doGet(request) {
     return handleApiRequest(request.parameter, null);
   }
   return HtmlService.createTemplateFromFile('index').evaluate()
-    .setTitle('NovaSol ERP V9.0')
+    .setTitle('NovaSol ERP V10.0')
     .setFaviconUrl('https://i.postimg.cc/FHGkmGKB/NOVASOL-1/logo.png')
     .addMetaTag('viewport', 'width=device-width, initial-scale=1')
     .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
